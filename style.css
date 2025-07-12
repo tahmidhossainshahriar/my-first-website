@@ -1,0 +1,99 @@
+/* Reset and Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #e0f7fa, #e1f5fe);
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Container */
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+/* Header */
+header {
+  background: linear-gradient(to right, #0066cc, #0099cc);
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.profile-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 5px solid rgb(240, 240, 240);
+  object-fit: cover;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+}
+
+/* Sections */
+section {
+  background: white;
+  margin: 30px 0;
+  padding: 25px 30px;
+  border-radius: 20px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+section:hover {
+  transform: translateY(-5px);
+}
+
+section h2 {
+  color: #007acc;
+  margin-bottom: 15px;
+  border-left: 5px solid #007acc;
+  padding-left: 10px;
+  font-size: 24px;
+}
+
+section p,
+section ul {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+ul {
+  list-style: disc inside;
+}
+
+/* Links */
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #004d66;
+  color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-top: 50px;
+  font-size: 15px;
+}
